@@ -8,19 +8,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AlterField(
-            model_name="accesstoken",
-            name="token",
-            field=models.CharField(unique=True, max_length=255),
-        ),
-        migrations.AlterField(
-            model_name="grant",
-            name="code",
-            field=models.CharField(unique=True, max_length=255),
-        ),
-        migrations.AlterField(
-            model_name="refreshtoken",
-            name="token",
-            field=models.CharField(unique=True, max_length=255),
-        ),
+
     ]
